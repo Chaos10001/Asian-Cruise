@@ -1,0 +1,270 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #000;
+    font-family: sans-serif;
+}
+.first-container{
+    background-color: #000;
+    height: 90vh;
+    width: 100%;
+}
+.first-container h1{
+    color: #ff0000;
+    margin: 1.5rem 5rem;
+}
+.nav-bar{
+    margin: -4.1rem 19rem;
+}
+.nav-bar ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-bar ul li{
+    margin: 0 2rem;
+}
+.nav-bar ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.nav-bar ul button{
+    width: 12rem;
+    height: 1rem;
+    background-color: transparent;
+    color: #fff;
+    margin: 0 3rem;
+    border-top-color:#fff ;
+    border-left-color:#fff ;
+    border-bottom-color:transparent;
+    border-right-color: transparent;
+}
+.content1{
+margin: 8rem 5rem;
+}
+.content1 h2{
+    color: #fff;
+    margin: auto;
+}
+.content1 h1{
+    margin: auto;
+    color: #fff;
+}
+.content1 input{
+    color: #fff;
+    background-color: transparent;
+    height: 1.5rem;
+    width: 15rem;
+}
+#input2{
+    color: #fff;
+    background-color: transparent;
+    height: 1.5rem;
+    width: 15rem;
+    border-top-color:transparent ;
+    border-left-color:transparent;
+    border-bottom-color:#fff;
+    border-right-color: #fff;   
+}
+.content1 button{
+    height: 2rem;
+    width: 6rem;
+    margin: 1rem 12rem;
+    color: #fff;
+    background-color: #ff0000;
+    border-radius: 0.2rem;
+}
+.content1 img{
+    height: 23rem;
+    width: 19rem;
+    float: right;
+    border-radius: 0.5rem;
+    margin-top: -5rem;
+}
+.content2{
+    margin: 19rem auto;
+}
+.content2 h1{
+    color: #fff;
+    font-size: 2rem;
+}
+.content2 p{
+    color: #fff;
+    float: right;
+    margin: -6rem 2rem;
+}
+.container2{
+    margin: 17rem 0;
+    height: 40vh;
+    width: 100%;
+}
+.container2 h1{
+    text-align: center;
+    color: #fff;
+    margin: 1.6rem 0;
+}
+.container2 p{
+    text-align: center;
+    color: #fff;
+}
+.food-imgcontainer{
+    display: flex;
+    margin: 3rem 7rem;
+}
+.food-imgcontainer .img1{
+    margin: 0 4rem;
+    
+}
+.food-imgcontainer .img1 p{
+    margin: 0.9rem 0;
+}
+.food-imgcontainer .img1 img{
+    border-radius: 50%;
+    height: 13rem;
+    width: 15rem;
+}
+.container3{
+    margin: 1.5rem 5rem;
+    height: 100vh;
+    width: max-content;
+}
+.container3 h1{
+    color: #fff;
+    
+    text-align: center;
+}
+.container3 p{
+    color: #fff;
+    text-align: center;
+}
+.text-container{
+    margin: 3rem auto;
+    display: flex;
+}
+.text-container1{
+    margin: 0 8rem;
+}
+.text{
+    margin: 3rem auto;
+}
+.text h1{
+    margin-left: -17rem;
+}
+.text h2{
+    font-size: 1.4rem;
+    color: #fff;
+    float: right;
+    margin: -2rem -5rem;
+}
+.container3 button{
+    padding: 1rem 2.7rem;
+    color: #fff;
+    background-color: #ff0000;
+    border: 1px solid #ff0000;
+    border-radius: 0.4rem;
+    margin-left: 38rem;
+}
+.container4{
+    margin: 15rem 12rem;
+    height: 50vh;
+}
+.container4 h1{
+    color: #fff;
+    margin: 1rem 4rem;
+    letter-spacing: 3.9px;
+    
+}
+.container4 h2{
+    color: #fff;
+    line-height: 1.4;
+    letter-spacing: 3.9px;
+}
+.city-image{
+    margin: -19rem 38rem;
+    display: flex;
+}
+.city-image1 img{
+    height: 11rem;
+    width: 11rem;
+}
+.container5{
+    height: 110vh;
+    background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)) 
+    ,url(../img/IMG-20220208-WA0001.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg{
+    background-color:#f10c0ce6;
+    height: 60%;
+    opacity: 0.5;
+    position: relative;
+    top: 18.1rem;
+}
+.bg-content{
+    display: flex;
+    margin: 5rem 5rem;
+}
+.bgimage-1{
+    margin: 0 3rem;
+}
+.bgimage-1 img{
+    border-radius: 50%;
+    height: 11rem;
+    width:11rem;
+    margin: 2rem 4rem;
+}
+.bgimage-1 h1{
+    color: #fff;
+    margin: 0 2.9rem;
+}
+.bgimage-1 h3{
+    font-weight: 200;
+    color: #fff;
+    margin:0 5rem;
+}
+.bgimage-1 p{
+    color: #fff;
+    margin: 2rem 0;
+}
+.container6{
+    height: 30vh;
+}
+.container6 h1{
+    text-align: center;
+    color: #ff0000;
+    margin: 5rem 0 0 0;
+}
+.last-content{
+    display: flex;
+    margin: 1rem 3rem;
+}
+.info-content{
+    margin: 0 8rem;
+}
+.info-content h1{
+    color: #fff;
+    font-size: 1.5rem;
+}
+.info-content p{
+    color: #fff;
+    font-weight: 100;
+    margin: 0 0.6rem;
+}
+footer{
+    margin: 2rem 0;
+    height: 2vh;
+}
+footer hr{
+    width: 100%;
+}
+footer p{
+    margin: 2rem 0;
+    color: #fff;
+    text-align: center;
+}
+
